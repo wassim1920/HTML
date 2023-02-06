@@ -1,0 +1,38 @@
+header{
+  background-color: #dddddd;
+}
+body{
+  font-family: 'Roboto';font-size: 22px;
+}
+h2{
+  color: blueviolet;
+  background-color: aquamarine;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 10px;     
+}
+input{
+  border: 2px solid blue;
+}
+.password{
+  border: 2px solid red;
+  color: red;
+}
+.sub{
+  border: 3px solid green;
+  background-color: rgb(120, 155, 120);
+}
+
+
