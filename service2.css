@@ -43,11 +43,12 @@
 footer{
     background-color: rgb(125, 190, 234);
     margin-top: 4%;
-    height: 150px;}
-    footer h4{
+    height: 100px;}
+footer h4 {
     display: flex;
     justify-content: flex-end;
-    align-items: end;
+    margin-right:1%;
+    margin-top: 1%;
 }
 footer h2{
   display: flex;
