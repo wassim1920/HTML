@@ -22,14 +22,22 @@ img{
   width: 100%;
 }
 .page{
-  background-color: rgb(103, 175, 214);
+  
   display: flex;
   justify-content: center;
   position: relative;
   top: 70px;
   height: 300px;
   color: white;
+  background-image: linear-gradient(
+        -45deg, 
+        rgba(59,173,227,1) 0%, 
+        rgba(87,111,230,1) 25%, 
+        rgba(152,68,183,1) 51%, 
+        rgba(255,53,127,1) 100%
+  );  
 }
+
 .grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -38,7 +46,7 @@ img{
   align-items: center;
   height: 100%;
 }
-.form-contral{
+/*.form-contral{
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 10px;
@@ -48,7 +56,7 @@ img{
   right: 157px;
   width: 150%;
   height: 80px;
-}
+}*/
 .btn:hover{
   color: rgb(255, 255, 255);  
   transform: scale(0.98);
@@ -56,7 +64,7 @@ img{
 .btn-outline{
   text-decoration: none;
 }
-.btn-primery{
+/*.btn-primery{
  background-color: rgb(8, 8, 69);
  color: rgb(0, 149, 255);
  position: relative;
@@ -64,20 +72,26 @@ img{
  left: 165px;
  width: 50%;
  height: 50px;
-}
-input[type='text']{
+}*/
+.btn-login{
+  text-decoration: none;
+  position: relative;
+  left: 900px;
+  color: white;
+}*/
+/*input[type='text']{
   background-color: rgb(255, 255, 255);
   border: 0;
   border-bottom: 1px solid rgb(184, 171, 171);
   padding: 10px;
   font-size: 14px;
   outline: none;
-}
-input[type='password']{
+}*/
+/*input[type='password']{
   background-color: rgb(255, 255, 255);
   border: 0;
   border-bottom: 1px solid rgb(150, 134, 134);
   padding: 10px;
   font-size: 14px;
   outline: none;
-}
+}*/

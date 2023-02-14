@@ -12,11 +12,13 @@
     display: block;
   }
   .service{
-    margin: 13%;
+    margin: 3%;
     padding: 3%;
     font-size: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-around;
  }
  .for-patients{
     background-color:#00ccb1;

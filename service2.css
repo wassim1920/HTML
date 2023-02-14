@@ -77,27 +77,3 @@ footer h2{
 .btn-small:hover{
   color: rgb(180, 83, 83);
 }
-
-
-
-/***************barcelona***********************
-
-.img-btn{ 
-  box-shadow: 0 1px;
-  position: relative;
-  left: 10px;
-  
-}
-.img-btn:hover{
-  background-color: rgb(230, 228, 228);
-  transform: scale(1.03,1.03);
-}
-.btn-small{
-  text-decoration: none;
-  display: flex;
-  justify-content: flex-end;
-  color: green;
-}
-.btn-small:hover{
-  color: rgb(180, 83, 83);
-}*/
