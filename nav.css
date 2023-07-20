@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family=Frank+Ruhl+Libre:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2? family=Frank+Ruhl+Libre:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +6,10 @@
   box-sizing: border-box;
 }
 
-
 .navMenu {
   position: absolute;
   top: 5%;
-  right:  27%;
+  right: 27%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }

@@ -1,80 +1,81 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  div{
-    display: block;
-  }
-  header h1{
-    color: rgb(14, 126, 126);
-    display: flex;
-    justify-content: center;
-  }
-  header p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 26em
-  }
-  .element-grid{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 5%;
-  }
-  .img-btn{ 
-    
-    box-shadow: 0 1px;
-    position: relative;
-    left: 10px;
-  }
-  .img-btn:hover{
-    background-color: rgb(230, 228, 228);
-    transform: scale(1.03,1.03);
-  }
-  .btn-small{
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    color: green;
-  }
-  .btn-small:hover{
-    color: rgb(180, 83, 83);
-  }
-footer{
-    background-color: rgb(125, 190, 234);
-    margin-top: 4%;
-    height: 100px;}
-footer h4 {
-    display: flex;
-    justify-content: flex-end;
-    margin-right:1%;
-    margin-top: 1%;
+html{
+  scroll-behavior: smooth;
 }
-footer h2{
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: block;
+}
+header h1 {
+  color: rgb(14, 126, 126);
   display: flex;
   justify-content: center;
-  color:black;
 }
-
-
-/********************************rome***********************************/
-
-.img-btn{ 
+header p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 26em;
+}
+.element-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.img-btn {
   box-shadow: 0 1px;
   position: relative;
   left: 10px;
-  
 }
-.img-btn:hover{
+.img-btn:hover {
   background-color: rgb(230, 228, 228);
-  transform: scale(1.03,1.03);
+  transform: scale(1.03, 1.03);
 }
-.btn-small{
+.btn-small {
   text-decoration: none;
   display: flex;
   justify-content: flex-end;
   color: green;
 }
-.btn-small:hover{
+.btn-small:hover {
+  color: rgb(180, 83, 83);
+}
+footer {
+  background-color: rgb(125, 190, 234);
+  margin-top: 4%;
+  height: 100px;
+}
+footer h4 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+footer h2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/********************************rome***********************************/
+
+.img-btn {
+  box-shadow: 0 1px;
+  position: relative;
+  left: 10px;
+}
+.img-btn:hover {
+  background-color: rgb(230, 228, 228);
+  transform: scale(1.03, 1.03);
+}
+.btn-small {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  color: green;
+}
+.btn-small:hover {
   color: rgb(180, 83, 83);
 }

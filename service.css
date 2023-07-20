@@ -1,106 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  body{
-    font-family: 'lato' , sans-serif;
-  }
-  div{
-    display: block;
-  }
-  .service{
-    margin: 3%;
-    padding: 3%;
-    font-size: 10px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    display: flex;
-    justify-content: space-around;
- }
- .for-patients{
-    background-color:#00ccb1;
-    color: white;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
+html{
+  scroll-behavior: smooth;
 }
-.for-patients:hover{
-    background-color: #48d7c6;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.for-patients h1{
-    font-size: large;
-    margin: 10%;
-    padding: 12%;
-    display: flex;
-    justify-content: center;
+body {
+  font-family: "lato", sans-serif;
 }
-.btn-outlines{
-    font-size: 15px;
-    text-decoration: none;
+div {
+  display: block;
 }
-.btn-outlines:hover{
-   color:white;
+.service {
+  margin: 3%;
+  padding: 3%;
+  font-size: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
 }
-
-
-
-
-
-
+.for-patients {
+  background-color: #00ccb1;
+  color: white;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+}
+.for-patients:hover {
+  background-color: #48d7c6;
+}
+.for-patients h1 {
+  font-size: large;
+  margin: 10%;
+  padding: 12%;
+  display: flex;
+  justify-content: center;
+}
+.btn-outlines {
+  font-size: 15px;
+  text-decoration: none;
+}
+.btn-outlines:hover {
+  color: white;
+}
 
 /*************************************for-doctors******************************/
- .for-doctors{
-    background-color:#3d83df;
-    color: white;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
+.for-doctors {
+  background-color: #3d83df;
+  color: white;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
 }
-.for-doctors:hover{
-    background-color: #7a8fe8;
+.for-doctors:hover {
+  background-color: #7a8fe8;
 }
-.for-doctors h1{
-    font-size: large;
-    margin: 10%;
-    padding: 12%;
-    display: flex;
-    justify-content: center;
+.for-doctors h1 {
+  font-size: large;
+  margin: 10%;
+  padding: 12%;
+  display: flex;
+  justify-content: center;
 }
-.btn-outlines{
-    font-size: 15px;
-    text-decoration: none;
+.btn-outlines {
+  font-size: 15px;
+  text-decoration: none;
 }
-.btn-outlines:hover{
-   color:white;
+.btn-outlines:hover {
+  color: white;
 }
-
-
 
 /****************************************for-clinic************************************/
-.for-clinic{
-    background-color:#1b2734;
-    color: white;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
+.for-clinic {
+  background-color: #1b2734;
+  color: white;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
 }
-.for-clinic:hover{
-    background-color: #333747;
+.for-clinic:hover {
+  background-color: #333747;
 }
-.for-clinic h1{
-    font-size: large;
-    margin: 10%;
-    padding: 12%;
-    display: flex;
-    justify-content: center;
+.for-clinic h1 {
+  font-size: large;
+  margin: 10%;
+  padding: 12%;
+  display: flex;
+  justify-content: center;
 }
-.btn-outlines{
-    font-size: 15px;
-    text-decoration: none;
+.btn-outlines {
+  font-size: 15px;
+  text-decoration: none;
 }
-.btn-outlines:hover{
-   color:white;
+.btn-outlines:hover {
+  color: white;
 }
